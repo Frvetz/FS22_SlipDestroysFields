@@ -1,4 +1,4 @@
-# SlipDestroysSoils
+# SlipDestroysFields
 
 -- WORK IN PROGRESS --
 This mod is not finished and might destroy your fields to much!
