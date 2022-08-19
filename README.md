@@ -22,7 +22,7 @@ The following options are available:
 # Full local multiplayer and dedicated server support
 
 
-##Changelog
+##Changelog##
 Info: If you have edited the mod yourself, you will have to edit it again after an update.
  
 Changelog Version 1.0.0.1:
@@ -36,7 +36,7 @@ Changelog Version 1.0.0.1:
 - General small problems in combination with REA-Mod fixed
 
 Planned for future updates:
-- Settings can be chosen individually by each player in multiplayer##
+- Settings can be chosen individually by each player in multiplayer
 
 
 
