@@ -22,7 +22,7 @@ The following options are available:
 # Full local multiplayer and dedicated server support
 
 
-##Changelog##
+# Changelog
 Info: If you have edited the mod yourself, you will have to edit it again after an update.
  
 Changelog Version 1.0.0.1:
@@ -40,7 +40,7 @@ Planned for future updates:
 
 
 
-TUTORIAL
+# Tutorial
 
 ##English##
 
