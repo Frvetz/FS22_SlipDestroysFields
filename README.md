@@ -1,5 +1,7 @@
 # SlipDestroysFields
 
+## Full local multiplayer and dedicated server support
+
 ## Credits: Mogli12 (FS17_GearboxAddon) | License in extra file ##
 
 In reality, when the tyres of a vehicle spin on the field or on grass, the ground starts to rip up. With this mod, this can now also be simulated in virtual agriculture, so that, for example, grassland has to be reseeded with a weeder, which has a seeder, or the correct tyres have to be used in wet conditions.
@@ -17,9 +19,6 @@ The following options are available:
   - When the ground is destroyed, the status of the respective field changes to " Cultivated". This is visually represented by the cultivator texture and particles behind the wheels.
   - At the end of this readme file and in the files SlipDestroysFields.lua/registerSlipDestroysFields.lua you can find a tutorial for customising the strengths.
   - If you have any questions, requests or problems, please feel free to contact the following email: SlipDestroysFields@web.de
-
-
-# Full local multiplayer and dedicated server support
 
 
 # Changelog
