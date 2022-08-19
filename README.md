@@ -132,3 +132,6 @@ Planned for future updates:
 	- 7. Insérez le mod maintenant zippé dans votre dossier de mods
 	
 	- 8. Supprimez la version non compressée du module
+
+
+Have fun!
