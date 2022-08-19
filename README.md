@@ -19,7 +19,7 @@ The following options are available:
   - At the end of this readme file and in the files SlipDestroysFields.lua/registerSlipDestroysFields.lua you can find a tutorial for customising the strengths.
   - If you have any questions, requests or problems, please feel free to contact the following email: SlipDestroysFields@web.de
 
-## Translator wanted for every available language in the Giants ModHub, except English and German ##
+## Translator wanted for every available language in the Giants ModHub, except English and German. Please contact SlipDestroysFields@web.de or frvetz#9527 (discord) ##
 
 
 # Changelog
