@@ -17,6 +17,9 @@ The following options are available:
   - If you have any questions, requests or problems, please feel free to contact the following email: SlipDestroysFields@web.de
 
 
+#Full local multiplayer and dedicated server support#
+
+
 #Changelog#
 Info: If you have edited the mod yourself, you will have to edit it again after an update.
  
@@ -24,6 +27,14 @@ Changelog Version 1.0.0.1:
 - Removed unwanted debug text that appeared with additional wheels and slip
 - Added particles when the wheel is turned with slip
 - Added the ability to set in the game settings whether a flashing text indicates when the soil is being destroyed
+- Added a notification that shows when settings have been changed
+- Multiplayer problems fixed
+- Dedicated server problems fixed
+- REA_gui display problems fixed 
+- General small problems in combination with REA-Mod fixed
+
+Planned for future updates:
+- Settings can be chosen individually by each player in multiplayer
 
 
 
