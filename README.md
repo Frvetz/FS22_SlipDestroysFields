@@ -1,5 +1,7 @@
 # SlipDestroysFields
 
+## Credits: Mogli12 (FS17_GearboxAddon) | License in extra file ##
+
 In reality, when the tyres of a vehicle spin on the field or on grass, the ground starts to rip up. With this mod, this can now also be simulated in virtual agriculture, so that, for example, grassland has to be reseeded with a weeder, which has a seeder, or the correct tyres have to be used in wet conditions.
 
 In the game settings, the strength of the destruction can be selected in order to always get the optimal amount of destruction in every situation, or when playing with mods that influence the tyres (e.g. REA Wheels).
@@ -17,10 +19,10 @@ The following options are available:
   - If you have any questions, requests or problems, please feel free to contact the following email: SlipDestroysFields@web.de
 
 
-#Full local multiplayer and dedicated server support#
+# Full local multiplayer and dedicated server support
 
 
-#Changelog#
+##Changelog
 Info: If you have edited the mod yourself, you will have to edit it again after an update.
  
 Changelog Version 1.0.0.1:
@@ -34,7 +36,7 @@ Changelog Version 1.0.0.1:
 - General small problems in combination with REA-Mod fixed
 
 Planned for future updates:
-- Settings can be chosen individually by each player in multiplayer
+- Settings can be chosen individually by each player in multiplayer##
 
 
 
