@@ -1,8 +1,8 @@
 # SlipDestroysFields
 
-Full local multiplayer and dedicated server support
-
 ## Credits: Mogli12 (FS17_GearboxAddon) | License in extra file ##
+
+- Full local multiplayer and dedicated server support
 
 In reality, when the tyres of a vehicle spin on the field or on grass, the ground starts to rip up. With this mod, this can now also be simulated in virtual agriculture, so that, for example, grassland has to be reseeded with a weeder, which has a seeder, or the correct tyres have to be used in wet conditions.
 
