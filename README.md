@@ -1,6 +1,6 @@
 # SlipDestroysFields
 
-## Full local multiplayer and dedicated server support
+Full local multiplayer and dedicated server support
 
 ## Credits: Mogli12 (FS17_GearboxAddon) | License in extra file ##
 
