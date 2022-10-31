@@ -22,7 +22,7 @@ The following options are available:
 ## Translator wanted for every available language in the Giants ModHub, except English and German. Please contact SlipDestroysFields@web.de or frvetz#2007 (Discord). If the Discord name doesn't work, please try frvetz#9527 ##
 
 
-# Changelog
+#Changelog
 Info: If you have edited the mod yourself, you will have to edit it again after an update.
  
 Changelog Version 1.0.0.1:
@@ -35,8 +35,14 @@ Changelog Version 1.0.0.1:
 - REA_gui display problems fixed 
 - General small problems in combination with REA-Mod fixed
 
+Changelog Version 1.0.0.2:
+- Dedicated server problems (Lua callstack) fixed. Sorry!
+- Description adapted
+
 Planned for future updates:
 - Settings can be chosen individually by each player in multiplayer
+- Stones appear less in places with slippage (not sure)
+- Mod is deactivated in missions (not sure)
 
 
 
