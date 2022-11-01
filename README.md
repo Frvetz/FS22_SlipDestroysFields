@@ -19,7 +19,7 @@ The following options are available:
   - At the end of this readme file and in the files SlipDestroysFields.lua/registerSlipDestroysFields.lua you can find a tutorial for customising the strengths.
   - If you have any questions, requests or problems, please feel free to contact the following email: SlipDestroysFields@web.de
 
-## Translator wanted for every available language in the Giants ModHub, except English and German. Please contact SlipDestroysFields@web.de or frvetz#2007 (Discord). If the Discord name doesn't work, please try frvetz#9527 ##
+## Translator wanted for every available language in the Giants ModHub, except English, German and Russian. Please contact SlipDestroysFields@web.de or frvetz#2007 (Discord). If the Discord name doesn't work, please try frvetz#9527 ##
 
 
 # Changelog
@@ -38,6 +38,7 @@ Changelog Version 1.0.0.1:
 Changelog Version 1.0.0.2:
 - Dedicated server problems (Lua callstack) fixed. Sorry!
 - Description adapted
+- Russian translation added
 
 Planned for future updates:
 - Settings can be chosen individually by each player in multiplayer
@@ -139,6 +140,37 @@ Planned for future updates:
 	- 7. Insérez le mod maintenant zippé dans votre dossier de mods
 	
 	- 8. Supprimez la version non compressée du module
+
+
+##Русский#
+
+-Пошаговое руководство по настройке значений-
+
+	- 1. Распакуйте мод
+
+	- 2. Откройте файл "registerSlipDestroysFields.lua"
+
+	- 3. Найдите строки 	'registerSlipDestroysFields.Strength = 1.8	 	-- Опция "Малое разрушение" ' 			в конце скрипта (строки 229-233)
+					'registerSlipDestroysFields.Strength = 1.65	-- Опция "Medium Destruction" '
+					'registerSlipDestroysFields.Strength = 1.5	 	-- Вариант "Большое разрушение" '
+
+	- 4. 
+		1. Измените число "1.8" в строке 229 (registerSlipDestroysFields.Strength = 1.8 -- Option "Little Destruction"), чтобы изменить количество разрушений для выбранной опции "Little Destruction".
+
+		2.  Измените число "1.65" в строке 231 (registerSlipDestroysFields.Strength = 1.65 -- Option "Medium Destruction"), чтобы изменить количество разрушений для выбранной опции "Medium Destruction".
+
+		3.  Измените число "1.8" в строке 233 (registerSlipDestroysFields.Strength = 1.8 -- Option "Much Destruction"), чтобы изменить количество разрушений для выбранной опции "Much Destruction".
+
+
+		! Числа очень чувствительны, и их не нужно сильно изменять, чтобы заметить изменение. Даже изменение на 0,1 оказывает заметное влияние !
+
+	- 5. Сохраните отредактированный файл
+	
+	- 6. Заархивируйте мод
+	
+	- 7. Вставьте заархивированный мод в папку mod
+	
+	- 8. Удалите разархивированную версию мода
 
 
 Have fun!
