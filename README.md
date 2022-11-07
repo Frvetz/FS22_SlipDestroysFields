@@ -39,6 +39,7 @@ Changelog Version 1.0.0.2:
 - Dedicated server problems (Lua callstack) fixed. Sorry!
 - Description adapted
 - Russian translation added
+- Fixed problems where the ground outside the field was destroyed
 
 Planned for future updates:
 - Settings can be chosen individually by each player in multiplayer

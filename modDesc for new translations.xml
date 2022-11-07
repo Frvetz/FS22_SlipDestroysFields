@@ -46,6 +46,7 @@ Changelog Version 1.0.0.2:
 - Dedicated Server Probleme (Lua-Callstack) behoben. Sorry!
 - Beschreibung angepasst
 - Russische Übersetzung hinzugefügt
+- Probleme behoben, bei denen der Boden außerhalb des Feldes zerstört wurde
 
 Geplant für zukünftige Updates:
 - Einstellungen kann im Multiplayer jeder Spieler individuell wählen
@@ -92,6 +93,7 @@ Changelog Version 1.0.0.2:
 - Dedicated server problems (Lua callstack) fixed. Sorry!
 - Description adapted
 - Russian translation added
+- Fixed problems where the ground outside the field was destroyed
 
 Planned for future updates:
 - Settings can be chosen individually by each player in multiplayer
@@ -138,6 +140,7 @@ Changelog Version 1.0.0.2 :
 - Problèmes de serveur dédié (Lua callstack) corrigés. Désolé !
 - Description adaptée
 - Ajout d'une traduction en russe
+- Correction des problèmes où le sol à l'extérieur du champ était détruit
 
 Prévu pour les futures mises à jour :
 - Les paramètres peuvent être choisis individuellement par chaque joueur en multijoueur
@@ -185,6 +188,7 @@ ChangeLog 1.0.0.2:
 - Исправлены проблемы при игре на выделенном сервере (Lua Callstack). Извиняюсь!
 - Адаптировано описание
 - Добавлен русский перевод
+- Исправлены проблемы, когда земля за пределами поля разрушалась
 
 Запланировано для будущих обновлений:
 - В многопользовательской игре настройки могут быть выбраны индивидуально каждым игроком 
