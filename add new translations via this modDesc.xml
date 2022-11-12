@@ -358,3 +358,35 @@ Changelog Version 1.0.0.3:
 		</text>
 	</l10n>
 </modDesc>
+
+!THIS WOULD NEED TO BE TRANSLATED AS WELL!
+
+##English##
+
+-Step-To-Step Guide for adjusting the values-
+
+	- 1. Unzip the mod
+
+	- 2. Open the file "registerSlipDestroysFields.lua"
+
+	- 3. Look for the lines 	'registerSlipDestroysFields.Strength = 1.8		-- Option "Little Destruction" '		at the end of the script (lines 229-233)
+								'registerSlipDestroysFields.Strength = 1.65 	-- Option "Medium Destruction" '
+								'registerSlipDestroysFields.Strength = 1.5 		-- Option "Much Destruction" '
+
+	- 4. 
+		1. Change the number "1.8" in line 229 		 (registerSlipDestroysFields.Strength = 1.8   	-- Option "Little Destruction") to change the destruction amount for the selected option "Little Destruction".
+
+		2.  Change the number "1.65" in line 231	 (registerSlipDestroysFields.Strength = 1.65  	-- Option "Medium Destruction") to change the destruction amount for the selected option "Medium Destruction".
+
+		3.  Change the number "1.8" in line 233      (registerSlipDestroysFields.Strength = 1.8 	-- Option "Much Destruction") to change the destruction amount for the selected option "Much Destruction".
+
+
+		!The numbers are very sensitive and do not need to be changed much to notice a change. Even a change of 0.1 has a remarkable impact!
+
+	- 5. Save the edited file
+	
+	- 6. Zip the mod
+	
+	- 7. Insert the now zipped mod into your mod folder
+	
+	- 8. Delete the unzipped version of the mod
