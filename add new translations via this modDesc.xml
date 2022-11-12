@@ -48,6 +48,9 @@ Changelog Version 1.0.0.2:
 - Russische Übersetzung hinzugefügt
 - Probleme behoben, bei denen der Boden außerhalb des Feldes zerstört wurde
 
+Changelog Version 1.0.0.3:
+- Hinzugefügt, dass in den Spieleinstellungen eingestellt werden kann, ob auch der Feldrand zerstört werden soll, oder nur die Bereiche, in denen sich tatsächlich Ackerboden befindet.
+
 Geplant für zukünftige Updates:
 - Einstellungen kann im Multiplayer jeder Spieler individuell wählen
 - Steine tauchen weniger an Stellen mit Schlupf auf (nicht sicher)
@@ -95,6 +98,9 @@ Changelog Version 1.0.0.2:
 - Russian translation added
 - Fixed problems where the ground outside the field was destroyed
 
+Changelog Version 1.0.0.3:
+- Added the ability to set in the game settings whether the field edge should also be destroyed, or only the areas where there is actually arable soil
+
 Planned for future updates:
 - Settings can be chosen individually by each player in multiplayer
 - Stones appear less in places with slippage (not sure)
@@ -141,6 +147,9 @@ Changelog Version 1.0.0.2 :
 - Description adaptée
 - Ajout d'une traduction en russe
 - Correction des problèmes où le sol à l'extérieur du champ était détruit
+
+Changelog Version 1.0.0.3 :
+- Ajout de la possibilité de définir dans les paramètres du jeu si le bord du champ doit également être détruit, ou seulement les zones où il y a effectivement un sol arable
 
 Prévu pour les futures mises à jour :
 - Les paramètres peuvent être choisis individuellement par chaque joueur en multijoueur
@@ -190,6 +199,9 @@ ChangeLog 1.0.0.2:
 - Добавлен русский перевод
 - Исправлены проблемы, когда земля за пределами поля разрушалась
 
+Changelog Version 1.0.0.3:
+-
+
 Запланировано для будущих обновлений:
 - В многопользовательской игре настройки могут быть выбраны индивидуально каждым игроком 
 - Меньше появляются камни в местах проскальзывания (не уверены)
@@ -198,7 +210,7 @@ ChangeLog 1.0.0.2:
 	</ru>
     </description>
     <author>frvetz</author>
-    <version>1.0.0.2</version>
+    <version>1.0.0.3</version>
     <iconFilename>modIcon.dds</iconFilename>
     <multiplayer supported="true"/>
     <extraSourceFiles>
@@ -250,6 +262,10 @@ ChangeLog 1.0.0.2:
 			<ru>Отключить</ru>
 		</text>
 		
+		
+		
+		
+		
 		<text name="setting_SlipDestroysFields_Debug">
 			<de>Debug</de>
 			<en>Debug</en>
@@ -276,6 +292,40 @@ ChangeLog 1.0.0.2:
 			<ru>Нет</ru>
 		</text>
 		
+		
+		
+		
+		
+		<text name="setting_SlipDestroysFields_Destruction">
+			<de>Zerstörung außerhalb des Feldes</de>
+			<en>Destruction outside the field</en>
+			<fr>Destruction en dehors du champ</fr>
+			<ru>-</ru>
+		</text>
+		<text name="explanation_SlipDestroysFields_Destruction">
+			<de>Legt fest, ob auch der Feldrand zerstört werden soll, oder nur die Bereiche, in denen sich tatsächlich Ackerboden befindet.</de>
+			<en>Determines whether the field edge should also be destroyed, or only the areas where there is actually arable soil.</en>
+			<fr>Détermine si le bord du champ doit également être détruit, ou seulement les zones où il y a effectivement un sol arable.</fr>
+			<ru>-</ru>
+		</text>
+		
+		<text name="selection_SlipDestroysFields_DestructionTrue">
+			<de>Ja</de>
+			<en>Yes</en>
+			<fr>Oui</fr>
+			<ru>Да</ru>
+		</text>
+		<text name="selection_SlipDestroysFields_DestructionFalse">
+			<de>Nein</de>
+			<en>No</en>
+			<fr>Non</fr>
+			<ru>Нет</ru>
+		</text>
+		
+		
+		
+		
+		
 		<text name="warning_Destruction">
 			<de>Schlupf Zerstört Felder: Boden wird zerstört!</de>
 			<en>Slip Destroys Fields: Ground is being destroyed!</en>
@@ -298,6 +348,12 @@ ChangeLog 1.0.0.2:
 			<de>Debug geändert auf</de>
 			<en>Debug changed to</en>
 			<fr>Debug changée en</fr>
+			<ru>Канал отладки для</ru>
+		</text>
+		<text name="SettingDestructionChanged">
+			<de>Zerstörung außerhalb des Feldes geändert auf</de>
+			<en>Destruction outside the field changed to</en>
+			<fr>Destruction en dehors du champ changée en</fr>
 			<ru>Канал отладки для</ru>
 		</text>
 	</l10n>
