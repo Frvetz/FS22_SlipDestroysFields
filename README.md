@@ -174,4 +174,4 @@ Planned for future updates:
 	- 8. Удалите разархивированную версию мода
 
 
-Have fun!
+Have fun! :D
