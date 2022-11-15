@@ -22,7 +22,7 @@ The following options are available:
 ## Translator wanted for every available language in the Giants ModHub, except English, German and Russian. Please contact SlipDestroysFields@web.de or frvetz#2007 (Discord). If the Discord name doesn't work, please try frvetz#9527 ##
 
 
-# Changelog 
+# Changelog
 Info: If you have edited the mod yourself, you will have to edit it again after an update.
  
 Changelog Version 1.0.0.1:
