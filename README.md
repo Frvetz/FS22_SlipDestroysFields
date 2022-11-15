@@ -187,11 +187,11 @@ Planned for future updates:
 					'registerSlipDestroysFields.Strength = 1.5  -- Optie "Veel vernietiging" '
 
     - 4. 
-        1. Verander het getal "1.8" in regel 325 (registerSlipDestroysFields.Strength = 1.8  -- Option "Little Destruction")     om de vernietigingswaarden voor de geselecteerde optie "Little Destruction" te veranderen.
+        1. Verander het getal "1.8" in regel 325 (registerSlipDestroysFields.Strength = 1.8  -- Option "Little Destruction") om de vernietigingswaarden voor de geselecteerde optie "Little Destruction" te veranderen.
 
-        2. Verander het getal "1.65" in regel 327 (registerSlipDestroysFields.Strength = 1.65  -- Option "Medium Destruction")   om de vernietigingswaarden voor de geselecteerde optie "Medium Destruction" te veranderen.
+        2. Verander het getal "1.65" in regel 327 (registerSlipDestroysFields.Strength = 1.65  -- Option "Medium Destruction") om de vernietigingswaarden voor de geselecteerde optie "Medium Destruction" te veranderen.
 
-        3. Verander het getal "1.8" in regel 329 (registerSlipDestroysFields.Strength = 1.8  -- Option "Much Destruction")       om de vernietigingswaarden voor de geselecteerde optie "Much Destruction" te veranderen.
+        3. Verander het getal "1.8" in regel 329 (registerSlipDestroysFields.Strength = 1.8  -- Option "Much Destruction") om de vernietigingswaarden voor de geselecteerde optie "Much Destruction" te veranderen.
 
 
         De getallen zijn erg gevoelig en hoeven niet veel veranderd te worden om een verandering op te merken. Zelfs een verandering van 0,1 heeft een opmerkelijk effect!
