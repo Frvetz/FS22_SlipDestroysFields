@@ -41,16 +41,17 @@ Changelog Version 1.0.0.2:
 - Russian translation added
 - Fixed problems where the ground outside the field was destroyed
 
-Planned for future updates:
-- Settings can be chosen individually by each player in multiplayer
-- Stones appear less in places with slippage (not sure)
-- Mod is deactivated in missions (not sure)
-
+Changelog Version 1.0.0.3:
+- Added that in the game settings it can be set whether the edge of the field should also be destroyed or only the areas where there is actually farmland
+- Problems with mod "UNIMOG U1200, U1400, U1600" fixed
+- Error "has unknown specialization" fixed
+- Game does not load with Hof Bergmann Beta Map fixed
 
 
 # Tutorial
 
-##English#
+
+##English##
 
 -Step-To-Step Guide for adjusting the values-
 
@@ -58,16 +59,16 @@ Planned for future updates:
 
 	- 2. Open the file "registerSlipDestroysFields.lua"
 
-	- 3. Look for the lines 	'registerSlipDestroysFields.Strength = 1.8  -- Option "Little Destruction" '		at the end of the script (lines 325-329)
-					'registerSlipDestroysFields.Strength = 1.65  -- Option "Medium Destruction" '
-					'registerSlipDestroysFields.Strength = 1.5  -- Option "Much Destruction" '
+	- 3. Look for the lines 	'registerSlipDestroysFields.Strength = 1.8		-- Option "Little Destruction" '		at the end of the script (lines 353-357)
+								'registerSlipDestroysFields.Strength = 1.65 	-- Option "Medium Destruction" '
+								'registerSlipDestroysFields.Strength = 1.5 		-- Option "Much Destruction" '
 
 	- 4. 
-		1. Change the number "1.8" in line 325 (registerSlipDestroysFields.Strength = 1.8  -- Option "Little Destruction") to change the destruction amount for the selected option "Little Destruction".
+		1. Change the number "1.8" in line 353      (registerSlipDestroysFields.Strength = 1.8   -- Option "Little Destruction") to change the destruction amount for the selected option "Little Destruction".
 
-		2.  Change the number "1.65" in line 327 (registerSlipDestroysFields.Strength = 1.65  -- Option "Medium Destruction") to change the destruction amount for the selected option "Medium Destruction".
+		2.  Change the number "1.65" in line 555      (registerSlipDestroysFields.Strength = 1.65   -- Option "Medium Destruction") to change the destruction amount for the selected option "Medium Destruction".
 
-		3.  Change the number "1.8" in line 329 (registerSlipDestroysFields.Strength = 1.8  -- Option "Much Destruction") to change the destruction amount for the selected option "Much Destruction".
+		3.  Change the number "1.8" in line 327      (registerSlipDestroysFields.Strength = 1.8   -- Option "Much Destruction") to change the destruction amount for the selected option "Much Destruction".
 
 
 		!The numbers are very sensitive and do not need to be changed much to notice a change. Even a change of 0.1 has a remarkable impact!
@@ -89,16 +90,16 @@ Planned for future updates:
 	
 	- 2. Öffnen Sie die Datei "registerSlipDestroysFields.lua"
 
-	- 3. Suchen Sie die Zeilen 	'registerSlipDestroysFields.Strength = 1.8  -- Option "Little Destruction" ' 	am Ende des Skripts (Zeilen 325-329)
-					'registerSlipDestroysFields.Strength = 1.65  -- Option "Medium Destruction" '
-					'registerSlipDestroysFields.Strength = 1.5  -- Option "Much Destruction" '
+	- 3. Suchen Sie die Zeilen 	'registerSlipDestroysFields.Strength = 1.8 		-- Option "Little Destruction" ' 	am Ende des Skripts (Zeilen 353-357)
+								'registerSlipDestroysFields.Strength = 1.65 	-- Option "Medium Destruction" '
+								'registerSlipDestroysFields.Strength = 1.5 		-- Option "Much Destruction" '
 	
 	- 4. 
-		1. Ändern Sie die Zahl "1.8" in Zeile 325 (registerSlipDestroysFields.Strength = 1.8  -- Option "Little Destruction"), um die Zerstörungsstärke für die gewählte Option "Geringe Zerstörung" zu ändern.
+		1. Ändern Sie die Zahl "1.8" in Zeile 353 (registerSlipDestroysFields.Strength = 1.8 -- Option "Little Destruction"), um die Zerstörungsstärke für die gewählte Option "Geringe Zerstörung" zu ändern.
 
-		2.  Ändern Sie die Zahl "1.65" in Zeile 327 (registerSlipDestroysFields.Strength = 1.65  -- Option "Medium Destruction"), um den Zerstörungsgrad für die gewählte Option "Mittlere Zerstörung" zu ändern.
+		2.  Ändern Sie die Zahl "1.65" in Zeile 355 (registerSlipDestroysFields.Strength = 1.65 -- Option "Medium Destruction"), um den Zerstörungsgrad für die gewählte Option "Mittlere Zerstörung" zu ändern.
 
-		3.  Ändern Sie die Zahl "1.8" in Zeile 329 (registerSlipDestroysFields.Strength = 1.8  -- Option "Much Destruction"), um den Zerstörungsgrad für die gewählte Option "Viel Zerstörung" zu ändern.
+		3.  Ändern Sie die Zahl "1.8" in Zeile 357 (registerSlipDestroysFields.Strength = 1.8 -- Option "Much Destruction"), um den Zerstörungsgrad für die gewählte Option "Viel Zerstörung" zu ändern.
 
 
 		!Die Zahlen sind sehr empfindlich und müssen nicht viel geändert werden, um eine Änderung zu bemerken. Selbst eine Änderung von 0,1 hat eine bemerkenswerte Auswirkung!
@@ -120,16 +121,16 @@ Planned for future updates:
 
 	- 2. Ouvrir le fichier "registerSlipDestroysFields.lua"
 
-	- Recherchez les lignes 	'registerSlipDestroysFields.Strength = 1.8  -- Option "Little Destruction"'			 à la fin du script (lignes 325-329)
-					'registerSlipDestroysFields.Strength = 1.65  -- Option "Medium Destruction" '
-					'registerSlipDestroysFields.Strength = 1.5  -- Option "Much Destruction" '
+	- Recherchez les lignes 	'registerSlipDestroysFields.Strength = 1.8 	-- Option "Little Destruction"'			 à la fin du script (lignes 353-357)
+								'registerSlipDestroysFields.Strength = 1.65 -- Option "Medium Destruction" '
+								'registerSlipDestroysFields.Strength = 1.5 	-- Option "Much Destruction" '
 
 	- 4. 
-		1. Modifiez le nombre "1,8" à la ligne 325 (registerSlipDestroysFields.Strength = 1,8  -- Option "Little Destruction") pour modifier la quantité de destruction pour l'option sélectionnée "Petite de destruction"
+		1. Modifiez le nombre "1,8" à la ligne 353 (registerSlipDestroysFields.Strength = 1,8 -- Option "Little Destruction") pour modifier la quantité de destruction pour l'option sélectionnée "Petite de destruction"
 
-		2.  Changez le nombre "1.65" dans la ligne 327 (registerSlipDestroysFields.Strength = 1.65  -- Option "Medium Destruction") pour changer le montant de destruction pour l'option sélectionnée "Moyen de destruction"
+		2.  Changez le nombre "1.65" dans la ligne 355 (registerSlipDestroysFields.Strength = 1.65 -- Option "Medium Destruction") pour changer le montant de destruction pour l'option sélectionnée "Moyen de destruction"
 
-		3.  Changez le nombre "1.8" dans la ligne 329 (registerSlipDestroysFields.Strength = 1.8  -- Option "Much Destruction") pour changer le montant de destruction pour l'option sélectionnée "Beaucoup de destruction"
+		3.  Changez le nombre "1.8" dans la ligne 357 (registerSlipDestroysFields.Strength = 1.8 -- Option "Much Destruction") pour changer le montant de destruction pour l'option sélectionnée "Beaucoup de destruction"
 
 
 		! Les chiffres sont très sensibles et il n'est pas nécessaire de les modifier beaucoup pour remarquer un changement. Même un changement de 0,1 a un impact remarquable !
@@ -151,16 +152,16 @@ Planned for future updates:
 
 	- 2. Откройте файл "registerSlipDestroysFields.lua"
 
-	- 3. Найдите строки 		'registerSlipDestroysFields.Strength = 1.8  -- Опция "Малое разрушение" ' 			в конце скрипта (строки 325-329)
-					'registerSlipDestroysFields.Strength = 1.65  -- Опция "Medium Destruction" '
-					'registerSlipDestroysFields.Strength = 1.5  -- Вариант "Большое разрушение" '
+	- 3. Найдите строки 		'registerSlipDestroysFields.Strength = 1.8	 -- Опция "Малое разрушение" ' 			в конце скрипта (строки 353-357)
+								'registerSlipDestroysFields.Strength = 1.65	 -- Опция "Medium Destruction" '
+								'registerSlipDestroysFields.Strength = 1.5	 -- Вариант "Большое разрушение" '
 
 	- 4. 
-		1. Измените число "1.8" в строке 325 (registerSlipDestroysFields.Strength = 1.8  -- Option "Little Destruction"), чтобы изменить количество разрушений для выбранной опции "Little Destruction".
+		1. Измените число "1.8" в строке 353 (registerSlipDestroysFields.Strength = 1.8 -- Option "Little Destruction"), чтобы изменить количество разрушений для выбранной опции "Little Destruction".
 
-		2.  Измените число "1.65" в строке 327 (registerSlipDestroysFields.Strength = 1.65  -- Option "Medium Destruction"), чтобы изменить количество разрушений для выбранной опции "Medium Destruction".
+		2.  Измените число "1.65" в строке 355 (registerSlipDestroysFields.Strength = 1.65 -- Option "Medium Destruction"), чтобы изменить количество разрушений для выбранной опции "Medium Destruction".
 
-		3.  Измените число "1.8" в строке 329 (registerSlipDestroysFields.Strength = 1.8  -- Option "Much Destruction"), чтобы изменить количество разрушений для выбранной опции "Much Destruction".
+		3.  Измените число "1.8" в строке 357 (registerSlipDestroysFields.Strength = 1.8 -- Option "Much Destruction"), чтобы изменить количество разрушений для выбранной опции "Much Destruction".
 
 
 		! Числа очень чувствительны, и их не нужно сильно изменять, чтобы заметить изменение. Даже изменение на 0,1 оказывает заметное влияние !
@@ -182,16 +183,16 @@ Planned for future updates:
 
     - 2. Open het bestand "registerSlipDestroysFields.lua".
 
-    - 3. Zoek de regels    		'registerSlipDestroysFields.Strength = 1.8  -- Option "Little Destruction" '     aan het einde van het script (regels 325-329)
-					'registerSlipDestroysFields.Strength = 1.65  -- Optie "Medium Destruction" '
-					'registerSlipDestroysFields.Strength = 1.5  -- Optie "Veel vernietiging" '
+    - 3. Zoek de regels    		'registerSlipDestroysFields.Strength = 1.8 -- Option "Little Destruction" '     aan het einde van het script (regels 353-357)
+								'registerSlipDestroysFields.Strength = 1.65 -- Optie "Medium Destruction" '
+								'registerSlipDestroysFields.Strength = 1.5 -- Optie "Veel vernietiging" '
 
     - 4. 
-        1. Verander het getal "1.8" in regel 325 (registerSlipDestroysFields.Strength = 1.8  -- Option "Little Destruction") om de vernietigingswaarden voor de geselecteerde optie "Little Destruction" te veranderen.
+        1. Verander het getal "1.8" in regel 353 (registerSlipDestroysFields.Strength = 1.8 -- Option "Little Destruction") om de vernietigingswaarden voor de geselecteerde optie "Little Destruction" te veranderen.
 
-        2. Verander het getal "1.65" in regel 327 (registerSlipDestroysFields.Strength = 1.65  -- Option "Medium Destruction") om de vernietigingswaarden voor de geselecteerde optie "Medium Destruction" te veranderen.
+        2. Verander het getal "1.65" in regel 355 (registerSlipDestroysFields.Strength = 1.65 -- Option "Medium Destruction") om de vernietigingswaarden voor de geselecteerde optie "Medium Destruction" te veranderen.
 
-        3. Verander het getal "1.8" in regel 329 (registerSlipDestroysFields.Strength = 1.8  -- Option "Much Destruction") om de vernietigingswaarden voor de geselecteerde optie "Much Destruction" te veranderen.
+        3. Verander het getal "1.8" in regel 357 (registerSlipDestroysFields.Strength = 1.8 -- Option "Much Destruction") om de vernietigingswaarden voor de geselecteerde optie "Much Destruction" te veranderen.
 
 
         De getallen zijn erg gevoelig en hoeven niet veel veranderd te worden om een verandering op te merken. Zelfs een verandering van 0,1 heeft een opmerkelijk effect!
