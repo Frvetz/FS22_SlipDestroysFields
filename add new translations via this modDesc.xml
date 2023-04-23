@@ -50,10 +50,11 @@ Changelog Version 1.0.0.2:
 - Probleme behoben, bei denen der Boden außerhalb des Feldes zerstört wurde
 
 Changelog Version 1.0.0.3:
-- Hinzugefügt, dass in den Spieleinstellungen eingestellt werden kann, ob auch der Feldrand zerstört werden soll, oder nur die Bereiche, in denen sich tatsächlich Ackerboden befindet
+- Hinzugefügt, dass in den Spieleinstellungen eingestellbar ist, ob auch der Feldrand zerstört werden soll, oder nur die Bereiche, in denen sich tatsächlich Ackerboden befindet
 - Probleme mit Mod "UNIMOG U1200, U1400, U1600" behoben
 - Fehler "has unknown specialization" behoben
 - Spiel lädt mit Hof Bergmann Beta Map nicht behoben
+- Hinzugefügt, dass in den Spieleinstellungen eingestellbar ist, ob jedes Feld oder nur das eigene Feld zerstört werden kann
     ]]>
 	</de>
 	<en>
@@ -102,6 +103,7 @@ Changelog Version 1.0.0.3:
 - Problems with mod "UNIMOG U1200, U1400, U1600" fixed
 - Error "has unknown specialization" fixed
 - Game does not load with Hof Bergmann Beta Map fixed
+- Added that in the game settings it can be set whether every field or only the own field can be destroyed
     ]]>	
 	</en>	
 	<fr>
@@ -150,6 +152,7 @@ Changelog Version 1.0.0.3 :
 - Problèmes avec le mod "UNIMOG U1200, U1400, U1600" corrigés
 - Erreur "a une spécialisation inconnue" corrigée
 - Le jeu ne se charge pas avec la carte Beta de Hof Bergmann corrigé
+- Ajouté que dans les paramètres du jeu, il est possible de définir si tous les champs ou seulement le sien peuvent être détruits
     ]]>
 	</fr>
 	<ru>
@@ -199,6 +202,7 @@ ChangeLog 1.0.0.3:
 - Проблемы с модом "UNIMOG U1200, U1400, U1600" исправлены
 - Исправлена ошибка "имеет неизвестную специализацию"
 - Игра не загружается с бета-картой Hof Bergmann исправлена
+- Добавлено, что в настройках игры можно установить, может ли быть уничтожено каждое поле или только собственное поле
     ]]>	
 	</ru>
 <nl>
@@ -246,6 +250,7 @@ Changelog Versie 1.0.0.3:
 - Problemen met mod "UNIMOG U1200, U1400, U1600" opgelost
 - Fout "heeft onbekende specialisatie" opgelost
 - Spel laadt niet met Hof Bergmann Beta Map gerepareerd
+- Toegevoegd dat in de spelinstellingen kan worden ingesteld of elk veld of alleen het eigen veld kan worden vernietigd
 ]]>
 </nl>
     </description>
@@ -395,14 +400,7 @@ Changelog Versie 1.0.0.3:
 			<nl>Bepaalt of vreemde velden ook door de banden kunnen worden vernietigd.</nl>
 		</text>
 		
-		<text name="selection_SlipDestroysFields_OtherFieldAccessPermission">
-			<de>Nur mit Berechtigung</de>
-			<en>Only with authorisation</en>
-			<fr>Seulement avec autorisation</fr>
-			<ru>Только с разрешения</ru>
-			<nl>Alleen met toestemming</nl>
-		</text>
-		<text name="selection_SlipDestroysFields_OtherFieldAccessFull">
+		<text name="selection_SlipDestroysFields_OtherFieldAccessYes">
 			<de>Ja</de>
 			<en>Yes</en>
 			<fr>Oui</fr>
@@ -436,32 +434,32 @@ Changelog Versie 1.0.0.3:
 			<nl>Slip vernietigt velden</nl>
 		</text>
 		<text name="SettingStrengthChanged">
-			<de>Zerstörungsstärke geändert auf</de>
+			<de>Zerstörungsstärke geändert zu</de>
 			<en>Destruction strength changed to</en>
 			<fr>La force de destruction a été changée en</fr>
 			<ru>Сила разрушения изменена для</ru>
 			<nl>Vernietigingssterkte veranderd in</nl>
 		</text>
 		<text name="SettingDebugChanged">
-			<de>Debug geändert auf</de>
+			<de>Debug geändert zu</de>
 			<en>Debug changed to</en>
 			<fr>Debug changée en</fr>
 			<ru>Канал отладки для</ru>
 			<nl>Debug veranderd in</nl>
 		</text>
 		<text name="SettingDestructionChanged">
-			<de>Zerstörung außerhalb des Feldes geändert auf</de>
+			<de>Zerstörung außerhalb des Feldes geändert zu</de>
 			<en>Destruction outside the field changed to</en>
 			<fr>Destruction en dehors du champ changée en</fr>
 			<ru>Канал отладки для</ru>
 			<nl>Vernietiging buiten het veld veranderd in</nl>
 		</text>
 		<text name="SettingOtherFieldAccessChanged">
-			<de>Zerstörung auf fremden Feldern einstellen geändert auf</de>
-			<en>Set destruction on other people's fields changed to</en>
+			<de>Zerstörung auf fremden Feldern geändert zu</de>
+			<en>Destruction in other people's fields changed to</en>
 			<fr>La destruction des champs d'autrui a été modifiée en</fr>
-			<ru>Установить разрушение на чужих полях изменено на</ru>
-			<nl>Vernietiging instellen op andermans velden veranderd in</nl>
+			<ru>Уничтожение на чужих полях сменилось на</ru>
+			<nl>Vernietiging in andermans velden veranderd in</nl>
 		</text>
 	</l10n>
 </modDesc>
