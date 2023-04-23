@@ -55,6 +55,7 @@ Changelog Version 1.0.0.3:
 - Fehler "has unknown specialization" behoben
 - Spiel lädt mit Hof Bergmann Beta Map nicht behoben
 - Hinzugefügt, dass in den Spieleinstellungen eingestellbar ist, ob jedes Feld oder nur das eigene Feld zerstört werden kann
+- Problem behoben, bei dem der Boden beim Rückwärtsfahren nicht zerstört wurde
     ]]>
 	</de>
 	<en>
@@ -104,6 +105,7 @@ Changelog Version 1.0.0.3:
 - Error "has unknown specialization" fixed
 - Game does not load with Hof Bergmann Beta Map fixed
 - Added that in the game settings it can be set whether every field or only the own field can be destroyed
+- Fixed an issue where the ground was not destroyed when driving backwards
     ]]>	
 	</en>	
 	<fr>
@@ -153,6 +155,7 @@ Changelog Version 1.0.0.3 :
 - Erreur "a une spécialisation inconnue" corrigée
 - Le jeu ne se charge pas avec la carte Beta de Hof Bergmann corrigé
 - Ajouté que dans les paramètres du jeu, il est possible de définir si tous les champs ou seulement le sien peuvent être détruits
+- Correction d'un problème où le sol n'était pas détruit lors de la conduite en marche arrière
     ]]>
 	</fr>
 	<ru>
@@ -203,6 +206,7 @@ ChangeLog 1.0.0.3:
 - Исправлена ошибка "имеет неизвестную специализацию"
 - Игра не загружается с бета-картой Hof Bergmann исправлена
 - Добавлено, что в настройках игры можно установить, может ли быть уничтожено каждое поле или только собственное поле
+- Исправлена проблема, при которой земля не разрушалась при движении назад
     ]]>	
 	</ru>
 <nl>
@@ -251,6 +255,7 @@ Changelog Versie 1.0.0.3:
 - Fout "heeft onbekende specialisatie" opgelost
 - Spel laadt niet met Hof Bergmann Beta Map gerepareerd
 - Toegevoegd dat in de spelinstellingen kan worden ingesteld of elk veld of alleen het eigen veld kan worden vernietigd
+- Probleem opgelost waarbij de grond niet werd vernietigd als je achteruit reed
 ]]>
 </nl>
     </description>

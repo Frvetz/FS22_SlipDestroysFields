@@ -47,6 +47,7 @@ Changelog Version 1.0.0.3:
 - Error "has unknown specialization" fixed
 - Game does not load with Hof Bergmann Beta Map fixed
 - Added that in the game settings it can be set whether every field or only the own field can be destroyed
+- Fixed an issue where the ground was not destroyed when driving backwards
 
 
 # Tutorial
