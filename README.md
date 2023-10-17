@@ -49,6 +49,9 @@ Changelog Version 1.0.0.3:
 - Added that in the game settings it can be set whether every field or only the own field can be destroyed
 - Fixed an issue where the ground was not destroyed when driving backwards
 
+Changelog Version 1.0.0.4:
+- Stones no longer appear when a wheel slips
+
 
 # Tutorial
 
