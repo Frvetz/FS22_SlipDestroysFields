@@ -52,6 +52,9 @@ Changelog Version 1.0.0.3:
 Changelog Version 1.0.0.4:
 - Stones no longer appear when a wheel slips
 
+Changelog Version 1.0.0.5:
+- Fixed a problem where the slip settings were reset when the settings were reopened
+
 
 # Tutorial
 
