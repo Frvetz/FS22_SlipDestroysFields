@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="79">
+    <title>
+        <de>Schlupf Zerstört Felder</de>
+        <en>Slip Destroys Fields</en>
+        <fr>Glissement Détruit Les Champs</fr>
+        <ru>Повреждение Полей Пробуксовкой</ru>
+        <nl>Slip Vernietigt Velden</nl>
+    </title>
+    <description>
+        <de>
+<![CDATA[Wenn in der Realität die Reifen eines Fahrzeuges auf dem Feld oder der Wiese durchdrehen, geht bekanntlich der Boden kaputt. Mit diesem Mod kann dies nun auch in der virtuellen Landwirtschaft simuliert werden, sodass z.B Grünland mit einem Striegel, welcher über einen Saataufbau verfügt, nachgesät werden oder bei entsprechender Nässe auf die richtige Bereifung geachtet werden muss.
+
+In den Spieleinstellungen kann die Stärke der Zerstörung gewählt werden, um immer in jeder Situation, oder beim Spielen mit Mods, welche die Reifen beeinflussen (z.B. REA Wheels), die optimale Menge an Zerstörung zu bekommen.
+Ebenso kann eingestellt werden, ob man durch einen blinkenden Text darauf hingewiesen werden möchte, wenn der Boden zerstört wird.
+
+Folgende Möglichkeiten stehen zur Auswahl:
+
+- Wenig
+- Mittelmäßg (empfohlen)
+- Viel
+- Keine
+
+  - Bei der Zerstörung des Bodens ändert sich der Status des jeweiligen Feldes unter den Rädern zu "Gegrubbert". Dies wird visuell durch die Grubber-Textur und Partikeln hinter den Rädern dargestellt.
+  - In der Datei registerSlipDestroysFields.lua steht ein Tutorial zur individuellen Anpassung der Stärken zur Verfügung.
+  - Bei Fragen, Wünschen oder Problemen kann gerne folgende E-Mail kontaktiert werden: SlipDestroysFields@web.de
+  - Ebenso steht ein GitHub-Repository für die neusten Updates und direkten Support zur Verfügung: https://github.com/Frvetz/FS22_SlipDestroysFields
+
+
+#Vollständige lokaler Multiplayer sowie Dedicated-Server Unterstützung#
+
+
+#Changelog#
+Info: Falls Sie den Mod selbst bearbeitet haben, müssen Sie diesen nach einem Update erneut bearbeiten.
+ 
+Changelog Version 1.0.0.1:
+- Ungewollter Debug-Text, der bei Zwillingsbereifung und Schlupf erschien, wurde entfernt
+- Partikel hinzugefügt, welche durch die Zerstörung des Bodens entstehen
+- Hinzugefügt, dass in den Spieleinstellungen eingestellt werden kann, ob ein blinkender Text anzeigt, wenn der Boden zerstört wird
+- Benachrichtigung hinzugefügt, die anzeigt, wenn Einstellungen geändert wurden
+- Multiplayer Probleme behoben
+- Dedicated-Server Probleme behoben
+- REA_gui Anzeigeprobleme behoben 
+- Generelle kleine Probleme in Kombination mit REA-Mod behoben
+
+Changelog Version 1.0.0.2:
+- Dedicated Server Probleme (Lua-Callstack) behoben. Sorry!
+- Beschreibung angepasst
+- Russische Übersetzung hinzugefügt
+- Probleme behoben, bei denen der Boden außerhalb des Feldes zerstört wurde
+
+Changelog Version 1.0.0.3:
+- Hinzugefügt, dass in den Spieleinstellungen eingestellbar ist, ob auch der Feldrand zerstört werden soll, oder nur die Bereiche, in denen sich tatsächlich Ackerboden befindet
+- Probleme mit Mod "UNIMOG U1200, U1400, U1600" behoben
+- Fehler "has unknown specialization" behoben
+- Spiel lädt mit Hof Bergmann Beta Map nicht behoben
+- Hinzugefügt, dass in den Spieleinstellungen eingestellbar ist, ob jedes Feld oder nur das eigene Feld zerstört werden kann
+- Problem behoben, bei dem der Boden beim Rückwärtsfahren nicht zerstört wurde
+
+Changelog Version 1.0.0.4:
+- Steine tauchen nicht mehr auf, wenn ein Rad durchdreht
+
+Changelog Version 1.0.0.5:
+- Problem behoben, bei dem die Schlupf-Einstellungen bei erneutem Öffnen der Einstellungen zurückgesetzt wurden
+- Einsinken zerstört nun den Boden (in den Spieleinstellungen ist einstellbar, ab welcher Tiefe das Feld zerstört wird)
+    ]]>
+	</de>
+	<en>
+<![CDATA[In reality, when the tyres of a vehicle spin on the field or on grass, the ground starts to rip up. With this mod, this can now also be simulated in virtual agriculture, so that, for example, grassland has to be reseeded with a weeder, which has a seeder, or the correct tyres have to be used in wet conditions.
+
+In the game settings, the strength of the destruction can be selected in order to always get the optimal amount of destruction in every situation, or when playing with mods that influence the tyres (e.g. REA Wheels).
+Likewise, you can set whether you want to be warned by a flashing text when the soil is being destroyed.
+
+The following options are available:
+
+- Little
+- Medium (recommended)
+- Much
+- None
+
+  - When the ground is destroyed, the status of the respective field changes to " Cultivated". This is visually represented by the cultivator texture and particles behind the wheels.
+  - In the file registerSlipDestroysFields.lua, a tutorial is available for customising the strengths.
+  - If you have any questions, requests or problems, please feel free to contact the following email: SlipDestroysFields@web.de
+  - There is also a GitHub repository available for the latest updates and direct support: https://github.com/Frvetz/FS22_SlipDestroysFields
+
+
+#Full local multiplayer and dedicated server support#
+
+
+#Changelog#
+Info: If you have edited the mod yourself, you will have to edit it again after an update.
+ 
+Changelog Version 1.0.0.1:
+- Removed unwanted debug text that appeared with additional wheels and slip
+- Added particles when the wheel is turned with slip
+- Added the ability to set in the game settings whether a flashing text indicates when the soil is being destroyed
+- Added a notification that shows when settings have been changed
+- Multiplayer problems fixed
+- Dedicated server problems fixed
+- REA_gui display problems fixed 
+- General small problems in combination with REA-Mod fixed
+
+Changelog Version 1.0.0.2:
+- Dedicated server problems (Lua callstack) fixed. Sorry!
+- Description adapted
+- Russian translation added
+- Fixed problems where the ground outside the field was destroyed
+
+Changelog Version 1.0.0.3:
+- Added that in the game settings it can be set whether the edge of the field should also be destroyed or only the areas where there is actually farmland
+- Problems with mod "UNIMOG U1200, U1400, U1600" fixed
+- Error "has unknown specialization" fixed
+- Game does not load with Hof Bergmann Beta Map fixed
+- Added that in the game settings it can be set whether every field or only the own field can be destroyed
+- Fixed an issue where the ground was not destroyed when driving backwards
+
+Changelog Version 1.0.0.4:
+- Stones no longer appear when a wheel slips
+
+Changelog Version 1.0.0.5:
+- Fixed a problem where the slip settings were reset when the settings were reopened
+- Sinking now destroys the ground (the depth at which the field is destroyed can be set in the game settings)
+    ]]>	
+	</en>	
+	<fr>
+<![CDATA[Dans la réalité, lorsque les pneus d'un véhicule patinent sur le champ ou sur l'herbe, le sol commence à se déchirer. Grâce à ce mod, il est désormais possible de simuler l'agriculture virtuelle, de sorte que, par exemple, les prairies doivent être réensemencées à l'aide d'une sarcleuse équipée d'un semoir, ou que les bons pneus doivent être utilisés en cas de pluie.
+
+Dans les paramètres du jeu, il est possible de sélectionner l'intensité de la destruction afin de toujours obtenir la quantité optimale de destruction dans chaque situation, ou lorsque vous jouez avec des mods qui influencent les pneus (par exemple, REA Wheels).
+De même, vous pouvez définir si vous souhaitez être averti par un texte clignotant lorsque le sol est détruit.
+
+Les options suivantes sont disponibles :
+
+- Peu
+- Moyen (recommandé)
+- Beaucoup
+- Aucune
+
+  - Lorsque le sol est détruit, le statut du champ concerné passe à "Cultivé". Ceci est représenté visuellement par la texture du cultivateur et les particules derrière les roues.
+  - Dans le fichier registerSlipDestroysFields.lua, un tutoriel est disponible pour personnaliser les forces.
+  - Si vous avez des questions, des demandes ou des problèmes, n'hésitez pas à contacter l'email suivant : SlipDestroysFields@web.de
+  - Il existe également un dépôt GitHub disponible pour les dernières mises à jour et le support direct : https://github.com/Frvetz/FS22_SlipDestroysFields
+
+
+#Compatibilité complète avec le multijoueur local et les serveurs dédiés#
+
+
+#Changelog#
+Info : Si vous avez édité le mod vous-même, vous devrez le rééditer après une mise à jour.
+ 
+Changelog Version 1.0.0.1 :
+- Suppression du texte de débogage indésirable qui apparaissait avec les roues et le glissement supplémentaires
+- Ajout de particules lorsque la roue est tournée avec un glissement
+- Ajout de la possibilité de définir dans les paramètres du jeu si un texte clignotant indique que le sol est en cours de destruction
+- Ajout d'une notification qui indique quand les paramètres ont été modifiés
+- Problèmes multijoueurs corrigés
+- Correction des problèmes de serveurs dédiés
+- Correction des problèmes d'affichage de REA_gui 
+- Correction de petits problèmes généraux en combinaison avec REA-Mod
+
+Changelog Version 1.0.0.2 :
+- Problèmes de serveur dédié (Lua callstack) corrigés. Désolé !
+- Description adaptée
+- Ajout d'une traduction en russe
+- Correction des problèmes où le sol à l'extérieur du champ était détruit
+
+Changelog Version 1.0.0.3 :
+- Ajouté que dans les paramètres du jeu, il est possible de définir si le bord du champ doit également être détruit ou seulement les zones où il y a réellement des terres agricoles
+- Problèmes avec le mod "UNIMOG U1200, U1400, U1600" corrigés
+- Erreur "a une spécialisation inconnue" corrigée
+- Le jeu ne se charge pas avec la carte Beta de Hof Bergmann corrigé
+- Ajouté que dans les paramètres du jeu, il est possible de définir si tous les champs ou seulement le sien peuvent être détruits
+- Correction d'un problème où le sol n'était pas détruit lors de la conduite en marche arrière
+
+Changelog Version 1.0.0.4 :
+- Les pierres n'apparaissent plus lorsqu'une roue glisse
+
+Changelog Version 1.0.0.5 :
+- Correction d'un problème qui entraînait la réinitialisation des paramètres de glissement lors de la réouverture des paramètres.
+- L'enfoncement détruit désormais le sol (la profondeur à laquelle le champ est détruit peut être définie dans les paramètres du jeu).
+    ]]>
+	</fr>
+	<ru>
+	<![CDATA[В реальности, когда на поле или на траве шины техники проскальзывают, земля начинает разрываться. С помощью этого мода теперь это также может быть смоделировано в виртуальном сельском хозяйстве.
+Так что, например, луга придётся пересевать полольником с функцией посева, или использоваться правильные шины когда почва влажная.
+
+В настройках игры вы можете отрегулировать силу разрушения, чтобы в любой ситуации получать оптимальное количество разрушений, или при игре с модами, которые влияют на шины (например, колеса REA).
+Точно так же вы можете установить, хотите ли вы получать предупреждения с помощью мигающего текста, когда почва разрушается.
+
+Доступны следующие варианты силы разрушения:
+
+- Слабо
+- Средне (рекомендуется)
+- Сильно
+- Отключить
+
+  - Когда земля разрушена, статус соответствующего поля меняется на «культивируемый». Это визуально представлено текстурой и частицами, летящими из под колёс.
+  - В файле registerSlipDestroysFields.lua есть руководство для настройки силы.
+  - Если у вас есть какие-либо вопросы, запросы или проблемы, пожалуйста, обратитесь в письме: slipdestroysfields@web.de
+  - Существует также репозиторий GitHub, доступный для последних обновлений и прямой поддержки: https://github.com/Frvetz/FS22_SlipDestroysFields
+
+
+#Полная поддержка локальной, многопользовательской игре и на выделенном сервере#
+
+
+#ChangeLog#
+Информация: Если вы отредактировали мод самостоятельно, вам придется отредактировать его снова после обновления.
+ 
+ChangeLog 1.0.0.1:
+- Удален нежелательный текст отладки, который появлялся с дополнительными колесами и скольжением
+- Добавлены частицы, летящие когда колесо пробуксовывает
+- Добавлена ​​возможность настройки отображения текста, когда почва разрушается
+- Добавлено уведомление, которое показывает, что настройки были изменены
+- Исправлены проблемы в многопользовательской игре
+- Исправлены проблемы при игре на выделенном сервере
+- Исправлены проблемы отображения REA_gui
+- Исправлены небольшие проблемы в сочетании с модом REA
+
+ChangeLog 1.0.0.2:
+- Исправлены проблемы при игре на выделенном сервере (Lua Callstack). Извиняюсь!
+- Адаптировано описание
+- Добавлен русский перевод
+- Исправлены проблемы, когда земля за пределами поля разрушалась
+
+ChangeLog 1.0.0.3:
+- Добавлено, что в настройках игры можно установить, должны ли уничтожаться также края поля или только те области, где действительно есть сельскохозяйственные угодья
+- Проблемы с модом "UNIMOG U1200, U1400, U1600" исправлены
+- Исправлена ошибка "имеет неизвестную специализацию"
+- Игра не загружается с бета-картой Hof Bergmann исправлена
+- Добавлено, что в настройках игры можно установить, может ли быть уничтожено каждое поле или только собственное поле
+- Исправлена проблема, при которой земля не разрушалась при движении назад
+
+ChangeLog 1.0.0.4:
+- Камни больше не появляются при проскальзывании колеса
+
+ChangeLog 1.0.0.5:
+- Исправлена проблема, при которой настройки скольжения сбрасывались при повторном открытии настроек
+- Завязшее ТС теперь разрушает землю (Глубина, на которой разрушается поле, может быть установлена в настройках игры)
+    ]]>	
+	</ru>
+<nl>
+<![CDATA[In werkelijkheid, wanneer de banden van een voertuig op het veld of op gras te snel draaien, begint de grond te scheuren. Met deze mod kan dit nu ook in virtuele landbouw worden gesimuleerd, zodat bijvoorbeeld grasland moet worden ingezaaid met een wieder, die een zaaimachine heeft, of de juiste banden moeten worden gebruikt in natte omstandigheden.
+
+In de spelinstellingen kan de sterkte van de vernietiging worden geselecteerd om altijd de optimale hoeveelheid vernietiging te krijgen in elke situatie, of bij het spelen met mods die de banden beïnvloeden (bijv. REA Wheels).
+Evenzo kunt u instellen of u gewaarschuwd wilt worden door een knipperende tekst wanneer de grond wordt vernietigd.
+
+De volgende opties zijn beschikbaar:
+
+- Klein
+- Gemiddeld (aanbevolen)
+- Veel
+- Geen
+
+  - Wanneer de grond is vernietigd, verandert de status van het betreffende veld in "Gecultiveerd". Dit wordt visueel weergegeven door de textuur van de cultivator en deeltjes achter de wielen.
+  - In het bestand registerSlipDestroysFields.lua is een tutorial beschikbaar voor het aanpassen van de sterke punten.
+  - Als u vragen, verzoeken of problemen heeft, neem dan gerust contact op met het volgende e-mailadres: SlipDestroysFields@web.de
+  - Er is ook een GitHub-repository beschikbaar voor de nieuwste updates en directe ondersteuning: https://github.com/Frvetz/FS22_SlipDestroysFields
+
+
+#Volledige lokale multiplayer en dedicated serverondersteuning#
+
+#Changelog#
+Info: Als je de mod zelf hebt bewerkt, zul je deze na een update opnieuw moeten bewerken.
+ 
+Changelog-versie 1.0.0.1:
+- Ongewenste foutopsporingstekst verwijderd die verscheen met extra wielen en slip
+- Toegevoegde deeltjes wanneer de wielen doorslippen
+- De mogelijkheid toegevoegd om in de spelinstellingen in te stellen of een knipperende tekst aangeeft wanneer de grond wordt vernietigd
+- Een melding toegevoegd die laat zien wanneer instellingen zijn gewijzigd
+- Problemen met meerdere spelers opgelost
+- Dedicated server problemen opgelost
+- REA_gui weergaveproblemen opgelost
+- Algemene kleine problemen in combinatie met REA-Mod opgelost
+
+Changelog-versie 1.0.0.2:
+- Dedicated server problemen (Lua callstack) opgelost. Sorry!
+- Beschrijving aangepast
+- Russische vertaling toegevoegd
+- Problemen opgelost waarbij de grond buiten het veld werd vernietigd
+
+Changelog Versie 1.0.0.3:
+- Toegevoegd dat in de spelinstellingen kan worden ingesteld of de rand van het veld ook moet worden vernietigd of alleen de gebieden waar daadwerkelijk landbouwgrond is
+- Problemen met mod "UNIMOG U1200, U1400, U1600" opgelost
+- Fout "heeft onbekende specialisatie" opgelost
+- Spel laadt niet met Hof Bergmann Beta Map gerepareerd
+- Toegevoegd dat in de spelinstellingen kan worden ingesteld of elk veld of alleen het eigen veld kan worden vernietigd
+- Probleem opgelost waarbij de grond niet werd vernietigd als je achteruit reed
+
+Changelog Versie 1.0.0.4:
+- Stenen verschijnen niet meer wanneer een wiel slipt
+
+Changelog Versie 1.0.0.5:
+- Probleem verholpen waarbij de slipinstellingen werden gereset wanneer de instellingen opnieuw werden geopend
+- Zinken vernietigt nu de grond (de diepte waarop het veld wordt vernietigd kan worden ingesteld in de spelinstellingen)
+]]>
+</nl>
+    </description>
+    <author>frvetz</author>
+    <version>1.0.0.5</version>
+    <iconFilename>icon_SlipDestroysFields.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <extraSourceFiles>
+		<sourceFile filename="registerSlipDestroysFields.lua" />
+    </extraSourceFiles>
+	
+	<l10n>
+        <text name="title_SlipDestroysFields">
+			<de>Schlupf Zerstört Felder</de>
+			<en>Slip Destroys Fields</en>
+			<fr>Glissement Détruit Les Champs</fr>
+			<ru>Повреждение полей пробуксовкой</ru>
+			<nl>Slip vernietigt velden</nl>
+		</text>
+		<text name="setting_SlipDestroysFields">
+			<de>Zerstörungsstärke</de>
+			<en>Destruction strength</en>
+			<fr>Puissance de destruction</fr>
+			<ru>Степень повреждения</ru>
+			<nl>Vernietigingskracht</nl>
+		</text>
+		<text name="explanation_SlipDestroysFields">
+			<de>Legt fest wie stark die Felder zerstört werden.</de>
+			<en>Determines how much the fields are destroyed.</en>
+			<fr>Détermine le degré de destruction des cases.</fr>
+			<ru>Определяет степень повреждения верхнего слоя почвы полей.</ru>
+			<nl>Bepaalt hoeveel de velden worden vernietigd..</nl>
+		</text>
+		
+		<text name="selection_SlipDestroysFields_Light">
+			<de>Wenig</de>
+			<en>Little</en>
+			<fr>Peu</fr>
+			<ru>Маленькая</ru>
+			<nl>Weinig</nl>
+		</text>
+		<text name="selection_SlipDestroysFields_Medium">
+			<de>Mittelmäßg (empfohlen)</de>
+			<en>Medium (recommended)</en>
+			<fr>Moyen (recommandé)</fr>
+			<ru>Средняя (рекомендовано)</ru>
+			<nl>Gemiddeld (Aanbevolen)</nl>
+		</text>
+		<text name="selection_SlipDestroysFields_Heavy">
+			<de>Viel</de>
+			<en>Much</en>
+			<fr>Beaucoup</fr>
+			<ru>Большая</ru>
+			<nl>Veel</nl>
+		</text>
+		<text name="selection_SlipDestroysFields_None">
+			<de>Keine</de>
+			<en>None</en>
+			<fr>Aucune</fr>
+			<ru>Отключить</ru>
+			<nl>Geen</nl>
+		</text>
+		
+		
+		
+		
+		
+		<text name="setting_SlipDestroysFields_Debug">
+			<de>Debug</de>
+			<en>Debug</en>
+			<fr>Debug</fr>
+			<ru>Сообщение</ru>
+			<nl>Debug</nl>
+		</text>
+		<text name="explanation_SlipDestroysFields_Debug">
+			<de>Legt fest, ob ein Text erscheint, wenn der Boden zerstört wird.</de>
+			<en>Determines whether a text appears when the floor is destroyed.</en>
+			<fr>Détermine si un texte apparaît lorsque l'étage est détruit.</fr>
+			<ru>Должно ли появляться сообщение, когда начинает повреждаться почва.</ru>
+			<nl>Bepaalt of een tekst verschijnt wanneer het veld wordt vernietigd.</nl>
+		</text>
+		
+		<text name="selection_SlipDestroysFields_DebugTrue">
+			<de>Ja</de>
+			<en>Yes</en>
+			<fr>Oui</fr>
+			<ru>Да</ru>
+			<nl>Ja</nl>
+		</text>
+		<text name="selection_SlipDestroysFields_DebugFalse">
+			<de>Nein</de>
+			<en>No</en>
+			<fr>Non</fr>
+			<ru>Нет</ru>
+			<nl>Nee</nl>
+		</text>
+		
+		
+		
+		
+		
+		<text name="setting_SlipDestroysFields_Destruction">
+			<de>Zerstörung des Feldrandes</de>
+			<en>Destruction of the field edge</en>
+			<fr>Destruction du bord du champ</fr>
+			<ru>Повреждение края поля</ru>
+			<nl>Vernietiging buiten het veld</nl>
+		</text>
+		<text name="explanation_SlipDestroysFields_Destruction">
+			<de>Legt fest, ob auch der Feldrand zerstört werden soll, oder nur die Bereiche, in denen sich tatsächlich Ackerboden befindet.</de>
+			<en>Determines whether the field edge should also be destroyed, or only the areas where there is actually arable soil.</en>
+			<fr>Détermine si le bord du champ doit également être détruit, ou seulement les zones où il y a effectivement un sol arable.</fr>
+			<ru>Будет ли повреждаться край поля или только те участки, где действительно есть пахотная почва.</ru>
+			<nl>Bepaalt of de veldrand ook vernietigd moet worden, of alleen de gebieden waar daadwerkelijk landbouwgrond aanwezig is.</nl>
+		</text>
+		
+		<text name="selection_SlipDestroysFields_DestructionTrue">
+			<de>Ja</de>
+			<en>Yes</en>
+			<fr>Oui</fr>
+			<ru>Да</ru>
+			<nl>Ja</nl>
+		</text>
+		<text name="selection_SlipDestroysFields_DestructionFalse">
+			<de>Nein</de>
+			<en>No</en>
+			<fr>Non</fr>
+			<ru>Нет</ru>
+			<nl>Nee</nl>
+		</text>
+		
+		
+		
+		
+		<text name="setting_SlipDestroysFields_OtherFieldAccess">
+			<de>Zerstörung auf fremden Feldern</de>
+			<en>Destruction in other people's fields</en>
+			<fr>Destruction des champs d'autrui</fr>
+			<ru>Повреждение почвы на чужих полях</ru>
+			<nl>Vernietiging door zinken</nl>
+		</text>
+		<text name="explanation_SlipDestroysFields_OtherFieldAccess">
+			<de>Legt fest, ob auch fremde Felder von den Reifen zerstört werden können.</de>
+			<en>Determines whether foreign fields can also be destroyed by the tyres.</en>
+			<fr>Détermine si les champs étrangers peuvent également être détruits par les pneus.</fr>
+			<ru>Будут ли повреждаться чужие поля.</ru>
+			<nl>Bepaalt of vreemde velden ook door de banden kunnen worden vernietigd.</nl>
+		</text>
+		
+		<text name="selection_SlipDestroysFields_OtherFieldAccessYes">
+			<de>Ja</de>
+			<en>Yes</en>
+			<fr>Oui</fr>
+			<ru>Да</ru>
+			<nl>Ja</nl>
+		</text>
+		<text name="selection_SlipDestroysFields_OtherFieldAccessNo">
+			<de>Nein</de>
+			<en>No</en>
+			<fr>Non</fr>
+			<ru>Нет</ru>
+			<nl>Nee</nl>
+		</text>
+		
+		
+		
+		
+		
+		<text name="setting_SlipDestroysFields_SinkDestroys">
+			<de>Zerstörung durch Einsinken</de>
+			<en>Destruction by sinking</en>
+			<fr>Destruction par naufrage</fr>
+			<ru>Повреждение поля завязшим ТС</ru>
+			<nl>Zinken vernietigt het veld</nl>
+		</text>
+		<text name="explanation_SlipDestroysFields_SinkDestroys">
+			<de>Legt fest, wie weit das Rad einsinken muss, bis das Feld zerstört wird.</de>
+			<en>Determines how far the wheel must sink before the field is destroyed.</en>
+			<fr>Détermine jusqu'où la roue doit s'enfoncer avant que le champ ne soit détruit..</fr>
+			<ru>Определяет, насколько глубоко ТС должно завязнуть, чтобы поле начало повреждаться.</ru>
+			<nl>Bepaalt hoe ver het wiel moet zinken voordat het veld wordt vernietigd.</nl>
+		</text>
+		
+		<text name="selection_SlipDestroysFields_SinkDestroysNo">
+			<de>Keine Zerstörung</de>
+			<en>No destruction</en>
+			<fr>Pas de destruction</fr>
+			<ru>Не повреждать поле</ru>
+			<nl>Geen vernietiging</nl>
+		</text>
+		
+		
+		
+		
+		
+		<text name="warning_Destruction">
+			<de>Schlupf Zerstört Felder: Boden wird zerstört!</de>
+			<en>Slip Destroys Fields: Ground is being destroyed!</en>
+			<fr>Glissement Détruit Les Champs : Le sol est en train d'être détruit !</fr>
+			<ru>Повреждение полей пробуксовкой: Верхний слой почвы повреждается!</ru>
+			<nl>slip vernietigt velden: grond wordt vernietigd!</nl>
+		</text>
+		<text name="ModName">
+			<de>Schlupf Zerstört Felder</de>
+			<en>Slip Destroys Fields</en>
+			<fr>Glissement Détruit Les Champs</fr>
+			<ru>Повреждение полей пробуксовкой</ru>
+			<nl>Slip vernietigt velden</nl>
+		</text>
+		<text name="SettingStrengthChanged">
+			<de>Zerstörungsstärke geändert zu</de>
+			<en>Destruction strength changed to</en>
+			<fr>La force de destruction a été changée en</fr>
+			<ru>Степень повреждения изменена на</ru>
+			<nl>Vernietigingssterkte veranderd in</nl>
+		</text>
+		<text name="SettingDebugChanged">
+			<de>Debug geändert zu</de>
+			<en>Debug changed to</en>
+			<fr>Debug changée en</fr>
+			<ru>Появление сообщения изменилось на</ru>
+			<nl>Debug veranderd in</nl>
+		</text>
+		<text name="SettingDestructionChanged">
+			<de>Zerstörung außerhalb des Feldes geändert zu</de>
+			<en>Destruction outside the field changed to</en>
+			<fr>Destruction en dehors du champ changée en</fr>
+			<ru>Повреждение края поля изменилось на</ru>
+			<nl>Vernietiging buiten het veld veranderd in</nl>
+		</text>
+		<text name="SettingOtherFieldAccessChanged">
+			<de>Zerstörung auf fremden Feldern geändert zu</de>
+			<en>Destruction in other people's fields changed to</en>
+			<fr>La destruction des champs d'autrui a été modifiée en</fr>
+			<ru>Повреждение почвы на чужих полях изменилось на</ru>
+			<nl>Vernietiging in andermans velden veranderd in</nl>
+		</text>
+		<text name="SettingSinkDestroysChanged">
+			<de>Zerstörung durch Einsinken geändert zu</de>
+			<en>Destruction by sinking changed to</en>
+			<fr>Destruction par naufrage modifiée à</fr>
+			<ru>Повреждение почвы завязшим ТС изменено на</ru>
+			<nl>Vernietiging door zinken veranderd in</nl>
+		</text>
+	</l10n>
+</modDesc>
