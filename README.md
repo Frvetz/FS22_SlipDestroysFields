@@ -54,6 +54,9 @@ Changelog Version 1.0.0.5:
 - Fixed a problem where the slip settings were reset when the settings were reopened
 - Sinking now destroys the ground (the depth at which the field is destroyed can be set in the game settings)
 
+Changelog version 1.0.0.6:
+- Polish translation added
+
 
 # Tutorial
 
