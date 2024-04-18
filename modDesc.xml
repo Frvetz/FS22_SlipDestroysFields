@@ -6,6 +6,7 @@
         <fr>Glissement Détruit Les Champs</fr>
         <ru>Повреждение Полей Пробуксовкой</ru>
         <nl>Slip Vernietigt Velden</nl>
+	    <pl>Poślizg kół</pl>
     </title>
     <description>
         <de>
@@ -309,6 +310,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Glissement Détruit Les Champs</fr>
 			<ru>Повреждение полей пробуксовкой</ru>
 			<nl>Slip vernietigt velden</nl>
+			<pl>Poślizg kół</pl>
 		</text>
 		<text name="setting_SlipDestroysFields">
 			<de>Zerstörungsstärke</de>
@@ -316,6 +318,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Puissance de destruction</fr>
 			<ru>Степень повреждения</ru>
 			<nl>Vernietigingskracht</nl>
+			<pl>Głębokość poślizgu</pl>
 		</text>
 		<text name="explanation_SlipDestroysFields">
 			<de>Legt fest wie stark die Felder zerstört werden.</de>
@@ -323,6 +326,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Détermine le degré de destruction des cases.</fr>
 			<ru>Определяет степень повреждения верхнего слоя почвы полей.</ru>
 			<nl>Bepaalt hoeveel de velden worden vernietigd..</nl>
+			<pl>Określa jak bardzo zmieni się podłoże po poślizgu koła.</pl>
 		</text>
 		
 		<text name="selection_SlipDestroysFields_Light">
@@ -331,6 +335,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Peu</fr>
 			<ru>Маленькая</ru>
 			<nl>Weinig</nl>
+			<pl>Mało</pl>
 		</text>
 		<text name="selection_SlipDestroysFields_Medium">
 			<de>Mittelmäßg (empfohlen)</de>
@@ -338,6 +343,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Moyen (recommandé)</fr>
 			<ru>Средняя (рекомендовано)</ru>
 			<nl>Gemiddeld (Aanbevolen)</nl>
+			<pl>Średnio (rekomendowane)</pl>
 		</text>
 		<text name="selection_SlipDestroysFields_Heavy">
 			<de>Viel</de>
@@ -345,6 +351,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Beaucoup</fr>
 			<ru>Большая</ru>
 			<nl>Veel</nl>
+			<pl>Dużo</pl>
 		</text>
 		<text name="selection_SlipDestroysFields_None">
 			<de>Keine</de>
@@ -352,6 +359,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Aucune</fr>
 			<ru>Отключить</ru>
 			<nl>Geen</nl>
+			<pl>Wcale</pl>
 		</text>
 		
 		
@@ -364,6 +372,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Debug</fr>
 			<ru>Сообщение</ru>
 			<nl>Debug</nl>
+			<pl>Debugowanie</pl>
 		</text>
 		<text name="explanation_SlipDestroysFields_Debug">
 			<de>Legt fest, ob ein Text erscheint, wenn der Boden zerstört wird.</de>
@@ -371,6 +380,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Détermine si un texte apparaît lorsque l'étage est détruit.</fr>
 			<ru>Должно ли появляться сообщение, когда начинает повреждаться почва.</ru>
 			<nl>Bepaalt of een tekst verschijnt wanneer het veld wordt vernietigd.</nl>
+			<pl>Określa, czy po poślizgu pojawia się tekst.</pl>
 		</text>
 		
 		<text name="selection_SlipDestroysFields_DebugTrue">
@@ -379,6 +389,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Oui</fr>
 			<ru>Да</ru>
 			<nl>Ja</nl>
+			<pl>Tak</pl>
 		</text>
 		<text name="selection_SlipDestroysFields_DebugFalse">
 			<de>Nein</de>
@@ -386,6 +397,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Non</fr>
 			<ru>Нет</ru>
 			<nl>Nee</nl>
+			<pl>Nie</pl>
 		</text>
 		
 		
@@ -398,6 +410,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Destruction du bord du champ</fr>
 			<ru>Повреждение края поля</ru>
 			<nl>Vernietiging buiten het veld</nl>
+			<pl>Poślizg kół poza polem</pl>
 		</text>
 		<text name="explanation_SlipDestroysFields_Destruction">
 			<de>Legt fest, ob auch der Feldrand zerstört werden soll, oder nur die Bereiche, in denen sich tatsächlich Ackerboden befindet.</de>
@@ -405,6 +418,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Détermine si le bord du champ doit également être détruit, ou seulement les zones où il y a effectivement un sol arable.</fr>
 			<ru>Будет ли повреждаться край поля или только те участки, где действительно есть пахотная почва.</ru>
 			<nl>Bepaalt of de veldrand ook vernietigd moet worden, of alleen de gebieden waar daadwerkelijk landbouwgrond aanwezig is.</nl>
+			<pl>Określa czy poślizg kół ma być tylko na polu czy również poza nim.</pl>
 		</text>
 		
 		<text name="selection_SlipDestroysFields_DestructionTrue">
@@ -413,6 +427,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Oui</fr>
 			<ru>Да</ru>
 			<nl>Ja</nl>
+			<pl>Tak</pl>
 		</text>
 		<text name="selection_SlipDestroysFields_DestructionFalse">
 			<de>Nein</de>
@@ -420,6 +435,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Non</fr>
 			<ru>Нет</ru>
 			<nl>Nee</nl>
+			<pl>Nie</pl>
 		</text>
 		
 		
@@ -431,6 +447,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Destruction des champs d'autrui</fr>
 			<ru>Повреждение почвы на чужих полях</ru>
 			<nl>Vernietiging door zinken</nl>
+			<pl>Poślizg kół na terenie innych</pl>
 		</text>
 		<text name="explanation_SlipDestroysFields_OtherFieldAccess">
 			<de>Legt fest, ob auch fremde Felder von den Reifen zerstört werden können.</de>
@@ -438,6 +455,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Détermine si les champs étrangers peuvent également être détruits par les pneus.</fr>
 			<ru>Будут ли повреждаться чужие поля.</ru>
 			<nl>Bepaalt of vreemde velden ook door de banden kunnen worden vernietigd.</nl>
+			<pl>Określa czy poślizg kół twojego pojazdu może być na terenie innych graczy.</pl>
 		</text>
 		
 		<text name="selection_SlipDestroysFields_OtherFieldAccessYes">
@@ -446,13 +464,15 @@ Changelog Versie 1.0.0.5:
 			<fr>Oui</fr>
 			<ru>Да</ru>
 			<nl>Ja</nl>
+			<pl>Tak</pl>
 		</text>
 		<text name="selection_SlipDestroysFields_OtherFieldAccessNo">
 			<de>Nein</de>
 			<en>No</en>
 			<fr>Non</fr>
 			<ru>Нет</ru>
-			<nl>Nee</nl>
+			<nl>Nee</nl>			
+			<pl>Nie</pl>
 		</text>
 		
 		
@@ -465,6 +485,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Destruction par naufrage</fr>
 			<ru>Повреждение поля завязшим ТС</ru>
 			<nl>Zinken vernietigt het veld</nl>
+			<pl>Zniszczenia podczas grzęźnięcia</pl>
 		</text>
 		<text name="explanation_SlipDestroysFields_SinkDestroys">
 			<de>Legt fest, wie weit das Rad einsinken muss, bis das Feld zerstört wird.</de>
@@ -472,6 +493,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Détermine jusqu'où la roue doit s'enfoncer avant que le champ ne soit détruit..</fr>
 			<ru>Определяет, насколько глубоко ТС должно завязнуть, чтобы поле начало повреждаться.</ru>
 			<nl>Bepaalt hoe ver het wiel moet zinken voordat het veld wordt vernietigd.</nl>
+			<pl>Określa, jak głeboko koło musi ugrzęznać, zanim teren zostanie zniszczony.</pl>
 		</text>
 		
 		<text name="selection_SlipDestroysFields_SinkDestroysNo">
@@ -480,6 +502,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Pas de destruction</fr>
 			<ru>Не повреждать поле</ru>
 			<nl>Geen vernietiging</nl>
+			<pl>Brak zniszczeń</pl>
 		</text>
 		
 		
@@ -492,6 +515,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Glissement Détruit Les Champs : Le sol est en train d'être détruit !</fr>
 			<ru>Повреждение полей пробуксовкой: Верхний слой почвы повреждается!</ru>
 			<nl>slip vernietigt velden: grond wordt vernietigd!</nl>
+			<pl>Koła mają poślizg!</pl>
 		</text>
 		<text name="ModName">
 			<de>Schlupf Zerstört Felder</de>
@@ -499,6 +523,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Glissement Détruit Les Champs</fr>
 			<ru>Повреждение полей пробуксовкой</ru>
 			<nl>Slip vernietigt velden</nl>
+			<pl>Poślizg kół</pl>
 		</text>
 		<text name="SettingStrengthChanged">
 			<de>Zerstörungsstärke geändert zu</de>
@@ -506,6 +531,7 @@ Changelog Versie 1.0.0.5:
 			<fr>La force de destruction a été changée en</fr>
 			<ru>Степень повреждения изменена на</ru>
 			<nl>Vernietigingssterkte veranderd in</nl>
+			<pl>Zmieniono głębokość poślizgu na</pl>
 		</text>
 		<text name="SettingDebugChanged">
 			<de>Debug geändert zu</de>
@@ -513,6 +539,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Debug changée en</fr>
 			<ru>Появление сообщения изменилось на</ru>
 			<nl>Debug veranderd in</nl>
+			<pl>Tryb debugowania:</pl>
 		</text>
 		<text name="SettingDestructionChanged">
 			<de>Zerstörung außerhalb des Feldes geändert zu</de>
@@ -520,6 +547,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Destruction en dehors du champ changée en</fr>
 			<ru>Повреждение края поля изменилось на</ru>
 			<nl>Vernietiging buiten het veld veranderd in</nl>
+			<pl>Poślizg kół poza polem:</pl>
 		</text>
 		<text name="SettingOtherFieldAccessChanged">
 			<de>Zerstörung auf fremden Feldern geändert zu</de>
@@ -527,6 +555,7 @@ Changelog Versie 1.0.0.5:
 			<fr>La destruction des champs d'autrui a été modifiée en</fr>
 			<ru>Повреждение почвы на чужих полях изменилось на</ru>
 			<nl>Vernietiging in andermans velden veranderd in</nl>
+			<pl>Poślizg kół na terenie innych:</pl>
 		</text>
 		<text name="SettingSinkDestroysChanged">
 			<de>Zerstörung durch Einsinken geändert zu</de>
@@ -534,6 +563,7 @@ Changelog Versie 1.0.0.5:
 			<fr>Destruction par naufrage modifiée à</fr>
 			<ru>Повреждение почвы завязшим ТС изменено на</ru>
 			<nl>Vernietiging door zinken veranderd in</nl>
+			<pl>Znieszczenia po ugrzęźnięciu:</pl>
 		</text>
 	</l10n>
 </modDesc>
